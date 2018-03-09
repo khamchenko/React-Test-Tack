@@ -1,6 +1,6 @@
 # React-Test-Task
 
-## Использование
+## Getting started
 ```sh
 # Install dependencies
 npm install
