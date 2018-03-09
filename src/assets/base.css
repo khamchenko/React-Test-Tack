@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat|Pacifico);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 50px 'Caveat', cursive;
+    background: #c3c3c3;
+    margin: 0;
+}
+
+button:focus{
+    outline: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}

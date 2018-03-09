@@ -1,0 +1,91 @@
+.post {
+    border: 2px solid #000;
+    margin: 5px 0;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 0;
+    font-size: 20px;
+    .profile{
+        min-width: 160px;
+        max-width: 150px;
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        border-right: 1px solid #131313;
+        .image{
+            width: 40px;
+            height: 40px;
+        }
+        .name {
+            margin: 5px 10px;
+            text-align: center;
+        }
+        .reputation{
+            margin: 5px 10px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    @media all and (max-width: 650px) {
+        .profile {
+            min-width: 100px;
+            max-width: 100px;
+            flex-direction: column;
+            margin: 0 5px;
+            font-size: 15px;
+        }
+    }
+    .info {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        margin: auto;
+        margin-right: 5px;
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .statistics-wrapper{
+            display: flex;
+            .statistics{
+                display: flex;
+                .element{
+                    margin: 5px;
+                    display: flex;
+                    align-items: center;
+                    color: #252525;
+                    background: #79c58a;
+                    border-radius: 5px;
+                    padding: 0 10px;
+                }
+            }
+            .date{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                flex-grow: 1;
+                margin: 0 10px;
+            }
+        }
+        @media all and (max-width: 650px) {
+            .title {
+                font-size: 16px;
+            }
+            .statistics-wrapper {
+                font-size: 16px;
+                text-align: center;
+                flex-direction: column;
+            }
+            .statistics-wrapper .element{
+                font-size: 16px;
+                text-align: center;
+                flex-direction: column;
+            }
+        }
+    }
+    &:hover {
+        background: #8c99ff;
+    }
+}

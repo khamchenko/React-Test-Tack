@@ -1,0 +1,13 @@
+.post-list {
+    margin-bottom: 50px;
+    .wrapper-list {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .post-list .wrapper-list {
+        margin: 0 20px;
+    }
+}
