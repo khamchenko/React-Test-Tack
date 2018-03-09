@@ -1,4 +1,4 @@
-# React-Test-Tack
+# React-Test-Task
 
 ## Использование
 ```sh
