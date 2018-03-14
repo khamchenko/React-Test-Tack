@@ -1,4 +1,4 @@
-# React-Test-Task
+# React Test task API Stack Overflow
 
 ## Getting started
 ```sh
